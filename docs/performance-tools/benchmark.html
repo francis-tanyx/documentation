@@ -14,7 +14,7 @@
         <link rel="prev" href="../Architecture/v3.0.0/aicsd-integration.html">
       
       
-        <link rel="next" href="api-docs.html">
+        <link rel="next" href="../use-cases/automated-self-checkout/automated-self-checkout.html">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -751,7 +751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-docs.html" class="md-nav__link">
+      <a href="api-docs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1242,6 +1242,213 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Common Service
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Common Service
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/common-service/common-service.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pipeline Server
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pipeline Server
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/pipeline-server/pipeline-server.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Retail Data Visualization
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Retail Data Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/retail-data-visualization/retail-data-visualization.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1339,12 +1546,12 @@ consumption, and so on.</p>
 </ul>
 <h1 id="benchmark-a-cv-pipeline">Benchmark a CV Pipeline</h1>
 <ol>
-<li>Build the benchmark container and change into the benchmark-scripts directory.</li>
-</ol>
-<div class="language-bash highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>performance-tools/
-make<span class="w"> </span>build-benchmark-docker<span class="w">   </span>
+<li>
+<p>Build the benchmark container and change into the benchmark-scripts directory.</p>
+<div class="language-bash highlight"><pre><span></span><code><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>performance-tools/
+<span class="w">    </span>make<span class="w"> </span>build-benchmark-docker
 </code></pre></div>
-<ol>
+</li>
 <li>
 <p>Python packages listed in <a href="https://github.com/intel-retail/performance-tools/blob/main/benchmark-scripts/requirements.txt">performance-tools/benchmark-scripts/requirements.txt</a></p>
 <div class="language-bash highlight"><pre><span></span><code><span class="w">    </span><span class="nb">cd</span><span class="w"> </span>performance-tools/benchmark-scripts/
@@ -1376,13 +1583,18 @@ make<span class="w"> </span>build-benchmark-docker<span class="w">   </span>
 <p>To run the stream density functionality use <code>--target_fps</code> and/or <code>--density_increment</code> as inputs to the <code>benchmark.py</code> script:</p>
 <div class="language-bash highlight"><pre><span></span><code><span class="w"> </span>python<span class="w"> </span>benchmark.py<span class="w">  </span>--retail_use_case_root<span class="w"> </span>../../retail-use-cases<span class="w"> </span>--target_fps<span class="w"> </span><span class="m">14</span>.95<span class="w"> </span>--density_increment<span class="w"> </span><span class="m">1</span><span class="w"> </span>--init_duration<span class="w"> </span><span class="m">40</span><span class="w">   </span>--compose_file<span class="w"> </span>../../retail-use-cases/use-cases/grpc_python/docker-compose_grpc_python.yml
 </code></pre></div>
-<p>where the parameters:
-- <code>target_fps</code> is the given target frames per second (fps) to achieve for maximum number of pipelines
-- <code>density_increment</code> is to configure the benchmark logic to increase the number of pipelines each time while trying to find out the maximum number of pipelines before reaching the given target fps.
-- <code>init_duration</code> is the initial duration period in second before pipeline performance metrics are taken</p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-    It is recommended to set --target_fps to a value lesser than your target FPS to account for real world variances in hardware readings.
-</code></pre></div>
+<p>where the parameters:</p>
+<ul>
+<li><code>target_fps</code> is the given target frames per second (fps) to achieve for maximum number of pipelines</li>
+<li><code>density_increment</code> is to configure the benchmark logic to increase the number of pipelines each time while trying to find out the maximum number of pipelines before reaching the given target fps.</li>
+<li>
+<p><code>init_duration</code> is the initial duration period in second before pipeline performance metrics are taken</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is recommended to set --target_fps to a value lesser than your target FPS to account for real world variances in hardware readings.</p>
+</div>
+</li>
+</ul>
 <p>Stream density with single container
 <a href="../images/performance-stream-density.png"><img alt="OpenVINO Model Server(OVMS) Pipeline with C-API" src="../images/performance-stream-density.png" /></a></p>
 <p>Stream density with OVMS and Client
@@ -1567,13 +1779,13 @@ make<span class="w"> </span>python-coverage
         
         
           
-          <a href="api-docs.html" class="md-footer__link md-footer__link--next" aria-label="Next: Benchmarking APIs">
+          <a href="../use-cases/automated-self-checkout/automated-self-checkout.html" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Benchmarking APIs
+                Overview
               </div>
             </div>
             <div class="md-footer__button md-icon">
