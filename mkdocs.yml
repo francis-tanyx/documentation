@@ -63,6 +63,12 @@ nav:
           - Overview: 'use-cases/loss-prevention/loss-prevention.md'
           - Getting Started: 'use-cases/loss-prevention/getting_started.md'
           - Advanced Settings: 'use-cases/loss-prevention/advanced.md'
+      - Common Service:
+          - Overview: 'use-cases/common-service/common-service.md'
+      - Pipeline Server:
+          - Overview: 'use-cases/pipeline-server/pipeline-server.md'
+      - Retail Data Visualization:
+          - Overview: 'use-cases/retail-data-visualization/retail-data-visualization.md'
   - Releases: 'releasenotes.md'
   - Troubleshooting: 'troubleshooting.md'
 extra_css:
