@@ -1,5 +1,7 @@
-  # Pipeline Server
-  
+# Pipeline Server
+
+## Prerequisites
+
   * Prepare models
 
       Use the model downloader [available here](https://github.com/dlstreamer/pipeline-server/tree/main/tools/model_downloader) to download new models. Point `MODEL_DIR` to the directory containing the new models. The following section assumes that the new models are available under `$(pwd)/models`.
