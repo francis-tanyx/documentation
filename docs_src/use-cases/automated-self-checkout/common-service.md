@@ -92,10 +92,10 @@ All settings are defined in `docker-compose.yml` under the `asc_common_service` 
  
 - Test from inside the container:
 
-```bash
-docker exec asc_common_service python kafka_publisher_test.py --topic lidar-data
-```
-You should see incoming messages in the console.
+    ```bash
+    docker exec asc_common_service python kafka_publisher_test.py --topic lidar-data
+    ```
+    You should see incoming messages in the console.
 
 ### C. HTTP 
  
